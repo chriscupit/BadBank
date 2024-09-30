@@ -1,0 +1,50 @@
+.nav-highlight {
+    color:red;
+  }
+  
+  /* CSS Styles */
+  .table {
+    color: red; /* Change the text color to red */
+  }
+  
+  .table thead th {
+    color: blue; /* Change the header text color to blue */
+  }
+  
+  .table tbody td {
+    color: green; /* Change the body cell text color to green */
+  }
+  
+  Card {
+    margin-left: 50px; /* Adjust the left margin to move the card away from the edge */
+  }
+
+  body {
+    background-image: url('bank2.jpg');
+  }
+
+  .center {
+    line-height: 200px;
+    height: 200px;
+    border: 3px solid green;
+    text-align: center;
+  }
+  
+  /* If the text has multiple lines, add the following: */
+  .center p {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  html,
+body {
+    height: 100%;
+}
+
+/*.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
