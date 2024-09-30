@@ -6,12 +6,12 @@ const DisplayContext = React.createContext(null);
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyA1CjqarIGgLpyx8186nGEG3MIv4SsEJQ0",
-  authDomain: "email-53d08.firebaseapp.com",
-  projectId: "email-53d08",
-  storageBucket: "email-53d08.appspot.com",
-  messagingSenderId: "105534643476",
-  appId: "1:105534643476:web:c70069a5561b8141a0b601"
+  apiKey: "your apiKey",
+  authDomain: "your authDomain",
+  projectId: "your projectID",
+  storageBucket: "your storageBucke",
+  messagingSenderId: "your messagingSenderId",
+  appId: "your appId"
 };
 
 // Initialize Firebase
