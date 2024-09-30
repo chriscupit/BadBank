@@ -3,14 +3,11 @@ function NavBar() {
      
   function handleLogout(){
     console.log('logout clicked')
-    //const userInfo = document.getElementById('user-info')
-    //userInfo.style.visibility = "hidden";
     ctx.user = "please login";
     ctx.email = "";
     firebase.auth().signOut();
   }
 
- // const ctx = React.useContext(UserContext);
 
 
   return (
