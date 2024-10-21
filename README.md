@@ -11,7 +11,7 @@ npm init -y
 npm install express
 npm install cors
 npm install mongoDB
-docker run -p 27017:27017 -name badbank -d mongoDB
+<!-- docker run -p 27017:27017 -name badbank -d mongoDB -->
 node index.js
 
 The stack used includes HTML, CSS , JS, Bootstrap, MongoDB, React, nodejs, express and docker.
